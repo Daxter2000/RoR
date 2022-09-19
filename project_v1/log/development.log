@@ -144,3 +144,192 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 2225ms (Views: 1317.7ms)
 
 
+Started GET "/" for 127.0.0.1 at 2022-09-19 16:49:23 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 491ms (Views: 270.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:00:28 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 30ms (Views: 28.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:01:23 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 17.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:01:43 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 54ms (Views: 53.2ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:04:22 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 23.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:07:01 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 35ms (Views: 33.4ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:07:15 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 18ms (Views: 17.1ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:09:29 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.3ms)
+Completed 200 OK in 21ms (Views: 20.5ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:09:59 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 36ms
+
+
+  
+ActionView::Template::Error (Missing partial home/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/alfredo/RoR/RoR/project_v1/app/views"
+):
+     9:   </head>
+    10: 
+    11:   <body>
+    12:     <%= render 'home/header'  %>
+    13:     <div class="container"><br>
+    14:       <%= yield %>
+    15:     </div>
+  
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__1986869858893431427_70090209585100'
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:10:10 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 35.6ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:11:18 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 52ms (Views: 50.8ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:11:22 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+  Rendered home/_header.html.erb (0.3ms)
+Completed 200 OK in 15ms (Views: 14.6ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:11:23 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 16ms (Views: 15.4ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:11:23 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+  Rendered home/_header.html.erb (0.4ms)
+Completed 200 OK in 21ms (Views: 19.7ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:11:25 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.4ms)
+Completed 200 OK in 27ms (Views: 25.8ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:11:25 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 16ms (Views: 15.5ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:11:26 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.6ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 65ms (Views: 63.3ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:13:04 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.5ms)
+  Rendered home/_header.html.erb (0.4ms)
+Completed 200 OK in 46ms (Views: 44.1ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:13:18 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+  Rendered home/_header.html.erb (1.1ms)
+Completed 200 OK in 40ms (Views: 37.9ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:13:19 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 35ms (Views: 34.5ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:14:05 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.8ms)
+  Rendered home/_header.html.erb (0.4ms)
+Completed 200 OK in 44ms (Views: 41.7ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:14:29 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 85ms (Views: 83.8ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:14:30 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.8ms)
+  Rendered home/_header.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 31.9ms)
+
+
