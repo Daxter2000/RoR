@@ -144,3 +144,625 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 2225ms (Views: 1317.7ms)
 
 
+Started GET "/" for 127.0.0.1 at 2022-09-19 16:49:23 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 491ms (Views: 270.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:00:28 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 30ms (Views: 28.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:01:23 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 17.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:01:43 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 54ms (Views: 53.2ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:04:22 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 23.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:07:01 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 35ms (Views: 33.4ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:07:15 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 18ms (Views: 17.1ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:09:29 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.3ms)
+Completed 200 OK in 21ms (Views: 20.5ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:09:59 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 36ms
+
+
+  
+ActionView::Template::Error (Missing partial home/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/alfredo/RoR/RoR/project_v1/app/views"
+):
+     9:   </head>
+    10: 
+    11:   <body>
+    12:     <%= render 'home/header'  %>
+    13:     <div class="container"><br>
+    14:       <%= yield %>
+    15:     </div>
+  
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__1986869858893431427_70090209585100'
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:10:10 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 35.6ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:11:18 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 52ms (Views: 50.8ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:11:22 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+  Rendered home/_header.html.erb (0.3ms)
+Completed 200 OK in 15ms (Views: 14.6ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:11:23 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 16ms (Views: 15.4ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:11:23 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+  Rendered home/_header.html.erb (0.4ms)
+Completed 200 OK in 21ms (Views: 19.7ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:11:25 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.4ms)
+Completed 200 OK in 27ms (Views: 25.8ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:11:25 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 16ms (Views: 15.5ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:11:26 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.6ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 65ms (Views: 63.3ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:13:04 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.5ms)
+  Rendered home/_header.html.erb (0.4ms)
+Completed 200 OK in 46ms (Views: 44.1ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:13:18 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+  Rendered home/_header.html.erb (1.1ms)
+Completed 200 OK in 40ms (Views: 37.9ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:13:19 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 35ms (Views: 34.5ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:14:05 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.8ms)
+  Rendered home/_header.html.erb (0.4ms)
+Completed 200 OK in 44ms (Views: 41.7ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:14:29 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 85ms (Views: 83.8ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:14:30 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.8ms)
+  Rendered home/_header.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 31.9ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:25:04 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.6ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 21ms (Views: 19.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2022-09-19 17:25:12 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:25:15 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 17ms (Views: 16.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:25:17 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_header.html.erb (0.4ms)
+Completed 200 OK in 18ms (Views: 17.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:25:18 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_header.html.erb (0.8ms)
+Completed 200 OK in 20ms (Views: 19.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:25:19 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_header.html.erb (0.4ms)
+Completed 200 OK in 15ms (Views: 14.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:25:19 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 18ms (Views: 17.7ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2022-09-19 17:25:22 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:25:29 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.2ms)
+  Rendered home/_header.html.erb (0.4ms)
+Completed 200 OK in 14ms (Views: 13.2ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:26:33 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.6ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 39ms (Views: 38.1ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:27:02 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.7ms)
+  Rendered home/_header.html.erb (0.8ms)
+Completed 200 OK in 31ms (Views: 29.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:27:04 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 20ms (Views: 18.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:30:14 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (278.8ms)
+Completed 500 Internal Server Error in 311ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_about_root' for #<#<Class:0x0000556cc5339a00>:0x00007f7e616e9218>
+Did you mean?  home_about_url
+               home_about_path):
+    11:           <a class="nav-link active" aria-current="page" href="#">Home</a>
+    12:         </li>
+    13:         <li class="nav-item">
+    14:           <%= link_to 'Link', home_about_root, class:"nav-link" %>
+    15:         </li>
+    16:         <li class="nav-item">
+    17:           <a class="nav-link disabled">Disabled</a>
+  
+app/views/home/_header.html.erb:14:in `_app_views_home__header_html_erb__966646211555752937_70090209447420'
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__1986869858893431427_70090388646960'
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:31:26 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_header.html.erb (1.3ms)
+Completed 200 OK in 36ms (Views: 34.4ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:31:27 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+  Rendered home/_header.html.erb (2.3ms)
+Completed 200 OK in 27ms (Views: 25.3ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:31:28 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (5.5ms)
+  Rendered home/_header.html.erb (1.2ms)
+Completed 200 OK in 58ms (Views: 56.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:31:29 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 27ms (Views: 26.0ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:31:30 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.9ms)
+Completed 200 OK in 71ms (Views: 70.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:31:31 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 28ms (Views: 26.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:31:32 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 20ms (Views: 18.6ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:31:34 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.6ms)
+  Rendered home/_header.html.erb (1.1ms)
+Completed 200 OK in 21ms (Views: 20.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:31:36 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_header.html.erb (1.2ms)
+Completed 200 OK in 27ms (Views: 25.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:32:24 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (1.5ms)
+Completed 200 OK in 22ms (Views: 21.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:32:25 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 15ms (Views: 14.4ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:32:26 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 28ms (Views: 25.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:32:27 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_header.html.erb (1.0ms)
+Completed 200 OK in 21ms (Views: 20.2ms)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-09-19 17:32:27 -0600
+Processing by HomeController#about as HTML
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+  Rendered home/_header.html.erb (0.8ms)
+Completed 200 OK in 18ms (Views: 17.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:32:28 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 15ms (Views: 14.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:47:28 -0600
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.7) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.7) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (37.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (157.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateFriends (20220919234229)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "friends" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar, "last_name" varchar, "email" varchar, "phone" varchar, "twitter" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220919234229"]]
+  [1m[35m (240.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-09-19 23:49:00.308105"], ["updated_at", "2022-09-19 23:49:00.308105"]]
+  [1m[35m (169.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2022-09-19 17:50:08 -0600
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_header.html.erb (1.0ms)
+Completed 200 OK in 9721ms (Views: 9719.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friend" for 127.0.0.1 at 2022-09-19 17:51:11 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/friend"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/friends" for 127.0.0.1 at 2022-09-19 17:51:21 -0600
+Processing by FriendsController#index as HTML
+  Rendering friends/index.html.erb within layouts/application
+  [1m[36mFriend Load (0.2ms)[0m  [1m[34mSELECT "friends".* FROM "friends"[0m
+  Rendered friends/index.html.erb within layouts/application (2.0ms)
+  Rendered home/_header.html.erb (1.3ms)
+Completed 200 OK in 67ms (Views: 21.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/friends/new" for 127.0.0.1 at 2022-09-19 17:51:40 -0600
+Processing by FriendsController#new as HTML
+  Rendering friends/new.html.erb within layouts/application
+  Rendered friends/_form.html.erb (187.3ms)
+  Rendered friends/new.html.erb within layouts/application (188.5ms)
+  Rendered home/_header.html.erb (1.1ms)
+Completed 200 OK in 226ms (Views: 217.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/friends" for 127.0.0.1 at 2022-09-19 17:52:02 -0600
+Processing by FriendsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J+FTIANchSM1jAJDhzZQgXUwuWGxNjrvNyDE7WAa+zA9PJG62Spq+hhU5XF2/BKGlBp7S6yF4DsJjznwianHuQ==", "friend"=>{"first_name"=>"Alfredo", "last_name"=>"Hernandez", "email"=>"alfredo.hdez@hotmail.com", "phone"=>"6141861938", "twitter"=>"daxter2000"}, "commit"=>"Create Friend"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "friends" ("first_name", "last_name", "email", "phone", "twitter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Alfredo"], ["last_name", "Hernandez"], ["email", "alfredo.hdez@hotmail.com"], ["phone", "6141861938"], ["twitter", "daxter2000"], ["created_at", "2022-09-19 23:52:02.764286"], ["updated_at", "2022-09-19 23:52:02.764286"]]
+  [1m[35m (59.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/friends/1
+Completed 302 Found in 70ms (ActiveRecord: 60.9ms)
+
+
+Started GET "/friends/1" for 127.0.0.1 at 2022-09-19 17:52:02 -0600
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.4ms)[0m  [1m[34mSELECT  "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (0.9ms)
+  Rendered home/_header.html.erb (4.3ms)
+Completed 200 OK in 86ms (Views: 25.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/friends" for 127.0.0.1 at 2022-09-19 17:52:06 -0600
+Processing by FriendsController#index as HTML
+  Rendering friends/index.html.erb within layouts/application
+  [1m[36mFriend Load (0.2ms)[0m  [1m[34mSELECT "friends".* FROM "friends"[0m
+  Rendered friends/index.html.erb within layouts/application (2.0ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.2ms)
+
+
+  [1m[36mFriend Load (0.8ms)[0m  [1m[34mSELECT  "friends".* FROM "friends" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "friends" ("first_name", "last_name", "email", "phone", "twitter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Alfredo"], ["last_name", "Hernandez"], ["email", "Hernandez@gmail.com"], ["phone", "61414141414"], ["twitter", "Daxter2000"], ["created_at", "2022-09-20 01:53:27.462952"], ["updated_at", "2022-09-20 01:53:27.462952"]]
+  [1m[35m (63.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT  "friends".* FROM "friends" LIMIT ?[0m  [["LIMIT", 11]]
