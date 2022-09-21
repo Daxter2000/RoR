@@ -766,3 +766,23 @@ Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.2ms)
   [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "friends" ("first_name", "last_name", "email", "phone", "twitter", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Alfredo"], ["last_name", "Hernandez"], ["email", "Hernandez@gmail.com"], ["phone", "61414141414"], ["twitter", "Daxter2000"], ["created_at", "2022-09-20 01:53:27.462952"], ["updated_at", "2022-09-20 01:53:27.462952"]]
   [1m[35m (63.8ms)[0m  [1m[36mcommit transaction[0m
   [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT  "friends".* FROM "friends" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mFriend Load (1.0ms)[0m  [1m[34mSELECT  "friends".* FROM "friends" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "friends"[0m
+Started GET "/" for 127.0.0.1 at 2022-09-20 19:02:13 -0600
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 1564ms (Views: 1533.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for 127.0.0.1 at 2022-09-20 19:02:22 -0600
+Processing by FriendsController#index as HTML
+  Rendering friends/index.html.erb within layouts/application
+  [1m[36mFriend Load (0.6ms)[0m  [1m[34mSELECT "friends".* FROM "friends"[0m
+  Rendered friends/index.html.erb within layouts/application (42.6ms)
+  Rendered home/_header.html.erb (0.8ms)
+Completed 200 OK in 221ms (Views: 76.1ms | ActiveRecord: 1.7ms)
+
+
