@@ -11,32 +11,29 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :first_name %>
-    <%= form.text_field :first_name, id: :friend_first_name %>
+  <div class="field form-group"">
+    <%= form.text_field :first_name, id: :friend_first_name, class:"form-control", placeholder:"First Name" %>
   </div>
 
-  <div class="field">
-    <%= form.label :last_name %>
-    <%= form.text_field :last_name, id: :friend_last_name %>
+  <div class="field form-group">
+    <%= form.text_field :last_name, id: :friend_last_name , class:"form-control", placeholder:"Last Name" %>
   </div>
 
-  <div class="field">
-    <%= form.label :email %>
-    <%= form.text_field :email, id: :friend_email %>
+  <div class="field form-group">
+    <%= form.text_field :email, id: :friend_email , class:"form-control", placeholder:"Email" %>
   </div>
 
-  <div class="field">
-    <%= form.label :phone %>
-    <%= form.text_field :phone, id: :friend_phone %>
+  <div class="field form-group">
+    <%= form.text_field :phone, id: :friend_phone, class:"form-control", placeholder:"Phone" %>
   </div>
 
-  <div class="field">
-    <%= form.label :twitter %>
-    <%= form.text_field :twitter, id: :friend_twitter %>
+  <div class="field form-group">
+    <%= form.text_field :twitter, id: :friend_twitter, class:"form-control", placeholder:"Twitter" %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit class:"btn btn-success"%>
   </div>
 <% end %>
+
+
