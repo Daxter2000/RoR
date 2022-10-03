@@ -1,9 +1,13 @@
 Rails.application.routes.draw do
+  devise_for :users
   get 'home/index'
 
-  devise_for :users
-  get 'landing/index'
-  root to: 'landing#index'
+  authenticated :user do
+    root to: 'home#index', as: :user_authenticated
+  end
 
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  unauthenticated :user do
+    root to: 'landing#index'
+  end
+
 end
