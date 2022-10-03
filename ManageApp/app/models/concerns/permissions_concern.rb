@@ -12,4 +12,6 @@ module PermissionsConcern
     def is_admin?
         self.user_permissions >= 3
     end
+
+
 end
