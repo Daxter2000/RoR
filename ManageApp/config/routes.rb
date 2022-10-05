@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   resources :companies
-  devise_for :users
   get 'home/index'
+
+  devise_for :users, controllers: { invitations: 'users/invitations' }
 
   authenticated :user do
     root to: 'home#index', as: :user_authenticated

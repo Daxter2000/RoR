@@ -1,7 +1,6 @@
 class CompaniesController < ApplicationController
-  before_action :set_current_user
+  before_action :set_current_user, :authenticate_admin!
   before_action :set_company, only: %i[ show edit update destroy ]
-  before_action :authenticate_admin!, only: %i[ show new edit update destroy]
   # GET /companies or /companies.json
   def index
     @companies = Company.all
