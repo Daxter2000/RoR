@@ -17,4 +17,7 @@ module PermissionsConcern
         !self.user_company.nil?
     end
 
+    def duplicate_company?
+        self.user_company.nil?
+    end
 end

@@ -15,6 +15,10 @@ class ApplicationController < ActionController::Base
   def authenticate_has_company!
     redirect_to root_path unless user_signed_in? && current_user.has_company?
   end
+
+  def duplicate_company!
+    redirect_to root_path unless user_signed_in? && current_user.duplicate_company?
+  end
   
   def set_current_user
     @current_user = current_user

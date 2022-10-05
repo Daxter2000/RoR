@@ -1,5 +1,6 @@
 class CompaniesController < ApplicationController
   before_action :set_current_user, :authenticate_admin!
+  before_action :duplicate_company!, only: %i[ new ]
   before_action :set_company, only: %i[ show edit update destroy ]
   # GET /companies or /companies.json
   def index
@@ -68,7 +69,14 @@ class CompaniesController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_company
-      @company = Company.find(params[:id])
+      p "ALFREDO PARAMS"
+      p params[:id].to_i
+      p @current_user.user_company.company.id
+      if params[:id].to_i == @current_user.user_company.company.id
+        @company =  Company.find(params[:id])
+      else 
+        redirect_to root_path
+      end 
     end
 
     # Only allow a list of trusted parameters through.
