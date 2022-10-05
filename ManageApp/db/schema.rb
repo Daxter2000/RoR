@@ -10,7 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20221003094559) do
+ActiveRecord::Schema.define(version: 20221005052920) do
+
+  create_table "clients", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
+    t.string "names"
+    t.string "ap_pat"
+    t.string "ap_mat"
+    t.string "tel"
+    t.string "channel"
+    t.bigint "company_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["company_id"], name: "index_clients_on_company_id"
+  end
 
   create_table "companies", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
     t.string "name", null: false
@@ -59,6 +71,7 @@ ActiveRecord::Schema.define(version: 20221003094559) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "clients", "companies", on_update: :cascade, on_delete: :cascade
   add_foreign_key "user_companies", "companies", on_update: :cascade, on_delete: :cascade
   add_foreign_key "user_companies", "users", on_update: :cascade, on_delete: :cascade
 end

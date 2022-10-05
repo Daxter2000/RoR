@@ -13,5 +13,8 @@ module PermissionsConcern
         self.user_permissions >= 3
     end
 
+    def has_company?
+        !self.user_company.nil?
+    end
 
 end
