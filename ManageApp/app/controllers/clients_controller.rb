@@ -63,7 +63,12 @@ class ClientsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_client
-      @client = Client.find(params[:id])
+      client = Client.find(params[:id])
+      if client.company_id == @current_user.user_company.company.id
+        @client = client
+      else 
+        redirect_to root_path
+      end
     end
 
     # Only allow a list of trusted parameters through.
